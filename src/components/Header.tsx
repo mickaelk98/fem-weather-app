@@ -20,7 +20,7 @@ export function Header() {
         </div>
         {/* dropDown */}
         {isOpen && (
-          <ul className="p-4 rounded-[12px] bg-[var(--neutral-800)] w-[214px] flex flex-col gap-3.5">
+          <ul className="absolute top-18 md:top-22 lg:top-26 p-4 rounded-[12px] bg-[var(--neutral-800)] w-[214px] flex flex-col gap-3.5">
             <li className="cursor-pointer">Switch to imperial</li>
             <li className="text-[var(--neutral-300)]">Temperature</li>
             <li>Celsius (°C)</li>
