@@ -7,7 +7,7 @@ export function Header() {
   const [isOpen, setIsOpen] = useState(true);
 
   return (
-    <header className="px-4 md:px-6 mt-4 md:mt-8 lg:mt-12 mb- flex justify-between">
+    <header className="mt-4 md:mt-8 lg:mt-12 mb- flex justify-between">
       <img className="self-start" src={logo} alt="app logo" />
       <div className="flex flex-col items-end gap-2.5">
         <div
