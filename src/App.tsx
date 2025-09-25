@@ -1,5 +1,11 @@
+import { Header } from "./components/Header";
+
 function App() {
-  return <p className="text-white text-3xl">How’s the sky looking today?</p>;
+  return (
+    <div className="flex flex-col max-w-7xl mx-auto">
+      <Header />
+    </div>
+  );
 }
 
 export default App;

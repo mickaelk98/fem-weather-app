@@ -1,16 +1,5 @@
 @import "tailwindcss";
 
-/* Reset */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-ul li {
-  list-style: none;
-}
-
 /* Root */
 :root {
   /* Neutral */
@@ -34,6 +23,7 @@ html,
 body {
   background: var(--neutral-900);
   font-family: "DM Sans", sans-serif;
+  color: white;
 }
 
 h1 {
