@@ -34,6 +34,17 @@ h1 {
   background: url("./assets/images/bg-today-small.svg") no-repeat center/cover;
 }
 
+.weather-metrics li,
+.daily-forecast li,
+.hourly-forecast {
+  background: var(--neutral-800);
+  border-radius: 12px;
+}
+
+.hourly-forecast {
+  border-radius: 20px;
+}
+
 @media (min-width: 767px) {
   .daily-weather {
     background: url("./assets/images/bg-today-large.svg") no-repeat center/cover;

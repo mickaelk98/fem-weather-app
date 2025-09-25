@@ -1,3 +1,3 @@
 export function HourlyForecast() {
-  return <div>HourlyForecast</div>;
+  return <div className="hourly-forecast">HourlyForecast</div>;
 }
