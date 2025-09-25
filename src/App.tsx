@@ -1,5 +1,9 @@
 import { Header } from "./components/Header";
 import { Search } from "./components/search";
+import { DailyForecast } from "./components/daily-forecast";
+import { DailyWeather } from "./components/daily-weather";
+import { HourlyForecast } from "./components/hourly-forecast";
+import { WeatherMetrics } from "./components/weather-metrics";
 
 function App() {
   return (
@@ -9,6 +13,16 @@ function App() {
         How’s the sky looking today?
       </h1>
       <Search />
+      <main className="flex flex-col lg:flex-row gap-8 mt-8 lg:mt-12 mb-12 md:mb-20">
+        <section>
+          <DailyWeather />
+          <WeatherMetrics />
+          <DailyForecast />
+        </section>
+        <section>
+          <HourlyForecast />
+        </section>
+      </main>
     </div>
   );
 }
