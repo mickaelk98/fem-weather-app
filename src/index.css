@@ -29,3 +29,13 @@ body {
 h1 {
   font-family: "Bricolage Grotesque", sans-serif;
 }
+
+.daily-weather {
+  background: url("./assets/images/bg-today-small.svg") no-repeat center/cover;
+}
+
+@media (min-width: 767px) {
+  .daily-weather {
+    background: url("./assets/images/bg-today-large.svg") no-repeat center/cover;
+  }
+}
